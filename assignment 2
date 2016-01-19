@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<style>
+	.box{
+		   border: 1px solid grey;
+		   background-color:#d3d3d3;
+	   }
+
+	
+	</style>
+
+
+</header>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+<body>
+
+<div ng-app="">
+ 
+<p>What is your name?</p>
+<p>Name: <input type="text" ng-model="name"></p>
+<p ng-bind="name"></p>
+
+</div>
+
+<div class="container">
+	<div class="row">
+			<div class="col-md-6 box">I can understand bootstrap ok now</div>
+			<div class="col-md-6 box">But Angular JS is hard and confusing</div>
+		</div>
+	<hr>
+	<hr>	
+		
+	<div class="row">
+			<div class="col-md-4 box">I was not able to use bootstrap and angular JS on my old project </div>
+			<div class="col-md-4 box">so I created another site</div>
+			<div class="col-md-4 box">Hope you understand.-Micy</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
